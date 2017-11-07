@@ -238,10 +238,10 @@ body {
 color: white;
 }
 
-.container-title{
+.title{
 	position: absolute; 
-	left: 50em; 
-	top: 13em;
+	left: 25em; 
+	top: 7em;
 	width: 30%;
     height:30%;
 	z-index: 1;;
@@ -263,9 +263,15 @@ h2{
 	top: 23em;
 	color:white;
 }
-
-
-
+/*Slide 5 : Contact*/
+.map{
+	position: absolute; 
+	left: 7em; 
+	top: 16em;
+	width: 40%;
+    height: 40%;
+	z-index: 1;
+}
 
 /* ==========================================================================
    Helper classes
