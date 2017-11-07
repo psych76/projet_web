@@ -225,12 +225,44 @@ body {
     height:100%;
 }
 
+.oeil{
+	position: absolute; 
+	left: 10em; 
+	top: 13em;
+	width: 30%;
+    height:30%;
+	z-index: 1; 
+}
 
+.title{
+color: white;
+}
 
+.container-title{
+	position: absolute; 
+	left: 50em; 
+	top: 13em;
+	width: 30%;
+    height:30%;
+	z-index: 1;;
 
+}
 
+.text-color{
+	color: #fabcde; 
+}
 
+.hightlight{
+background: white; 
+color: #6a67e3; 
+ }
 
+h2{
+	position: absolute; 
+	left: 50em; 
+	top: 23em;
+	color:white;
+}
 
 
 
