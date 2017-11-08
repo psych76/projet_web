@@ -238,13 +238,14 @@ body {
 color: white;
 }
 
-.title{
+.title__bonjour{
 	position: absolute; 
 	left: 25em; 
 	top: 7em;
 	width: 30%;
     height:30%;
-	z-index: 1;;
+	z-index: 1;
+	color: white;
 
 }
 
@@ -267,10 +268,30 @@ h2{
 .map{
 	position: absolute; 
 	left: 7em; 
-	top: 16em;
+	top: 17em;
 	width: 40%;
     height: 40%;
 	z-index: 1;
+}
+
+
+.contact{
+	position: absolute; 
+	left: 60em; 
+	top: 17em;
+	z-index: 1;
+	color:white;
+}
+
+.icon{
+position: absolute; 
+	left: 55em; 
+	top: 14em;
+
+}
+
+.fa{
+	margin-top: 1em;
 }
 
 /* ==========================================================================
