@@ -15,8 +15,9 @@
         <link rel="stylesheet" href="font/css/font-awesome.css">
         <link rel="stylesheet" href="css/swiper.min.css">
         <link rel="stylesheet" href="css/main.css">
-            <!--CSS Swiper-->
-        <!--<link rel="stylesheet" href="css/swiper.css">-->
+        <!--Font-->
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700" rel="stylesheet">
+
         
     </head>
     <body>
@@ -24,23 +25,17 @@
   <div class="swiper-container">
         <!-- Add Pagination -->
     <nav class="swiper-pagination"></nav>
- <!--   <div class="cat-menu">
-        <span class="cat-menu__item">Bonjour</span>
-        <span class="cat-menu__item">Projets</span>
-        <span class="cat-menu__item">Equipe</span>
-        <span class="cat-menu__item">Service</span>
-        <span class="cat-menu__item">Contact</span>
-    </div>
--->
 
     <div class="swiper-wrapper">
+
+      <!--Bonjour-->
       <div class="swiper-slide">
         <div class="container-slide">
             <div class="bandeau">
             </div>
             <img src="img/oeil.png" class="oeil">
             <div class="container-title">
-                <h1 class="title__bonjour">
+                <h1 class="title">
                 Bonjour Alexandre.<br>
                 Je suis <span class="highlight">Maya,</span><br>
                 l'agence <span class="text-color">transmedias.</span>
@@ -49,56 +44,71 @@
             <h2>suis-moi</h2>
         </div>
       </div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
+
+      <!--Projet-->
       <div class="swiper-slide">
-        <div class="container-slide">
-          <h1 class="title">
-            Contact<br><br>
-            Merci de votre visite!<br>
-            A bientôt!
-          </h1>
-          <img src="img/map.png" class="map">
-          <div class="icon">
-            <i class="fa fa-phone  fa-3x" aria-hidden="true"></i><br>
-            <i class="fa fa-pencil  fa-3x" aria-hidden="true"></i><br>
-            <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i><br>
-          </div>
-          <div class="contact">
-          <p>06 05 06 05 06</p><br><br>
-          <p>Contact@gmail.com<p><br>
-          <p> 25 rue des fougères<br>
-            44000 Nantes<br>
-            Entreprise <br>
-          </p>
+        <div class="container-title container-title--projet">
+            <h1 class="title">
+            Sais-tu que<br>
+            je raconte des<br>
+            <span class="text-color">histoire ?</span>
+            </h1>  
         </div>
       </div>
-    </div>
+
+      <!--Equipe-->
+      <div class="swiper-slide">Slide 3</div>
+
+      <!--Service-->
+      <div class="swiper-slide">Slide 4</div>
+
+      <!--Contact-->
+      <div class="swiper-slide">
+          <div class="container-slide">
+            <h1 class="title">
+              Contact<br><br>
+              Merci de votre visite!<br>
+              A bientôt!
+            </h1>
+            <img src="img/map.png" class="map">
+            <div class="icon">
+              <i class="fa fa-phone  fa-3x" aria-hidden="true"></i><br>
+              <i class="fa fa-pencil  fa-3x" aria-hidden="true"></i><br>
+              <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i><br>
+            </div>
+            <div class="contact">
+            <p>06 05 06 05 06</p><br><br>
+            <p>Contact@gmail.com<p><br>
+            <p> 25 rue des fougères<br>
+              44000 Nantes<br>
+              Entreprise <br>
+            </p>
+          </div>
+        </div>
+      </div>
 
      
-        <!--JS link-->
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-            <!--JS Swiper-->
-        <script src="js/vendor/swiper.min.js"></script>
-        <!--<script src="js/vendor/swiper.js"></script>
-        <script src="js/vendor/swiper.esm.js"></script>
-        <script src="js/vendor/swiper.esm.bundle.js"></script>-->
-        <script>
-      var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      centeredSlides: true,
-      spaceBetween: 0,
-      grabCursor: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-  </script>
+<!--JS link-->
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+    <!--JS Swiper-->
+<script src="js/vendor/swiper.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    centeredSlides: true,
+    spaceBetween: 0,
+    grabCursor: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
+
     </body>
 </html>
