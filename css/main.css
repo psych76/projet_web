@@ -214,11 +214,13 @@ body {
 /*Slide 1 : Bonjour*/
 
 .container-slide{
+  float: left;
     height:100%;
     width:100%;
 }
 
 .bandeau{
+  float: left;
     margin-left: 20%;
     background-color: #6a67e3; 
     width: 30%;
@@ -239,11 +241,6 @@ color: white;
 }
 
 .title__bonjour{
-	position: absolute; 
-	left: 25em; 
-	top: 7em;
-	width: 30%;
-    height:30%;
 	z-index: 1;
 	color: white;
 
